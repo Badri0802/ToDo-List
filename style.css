@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@300&display=swap');
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #222222;
+    padding: 4vh;
+}
+.todo{
+    width: 70%;
+    border-radius: 10px;
+    background-color: #555555;
+    margin: 10vh auto;
+    padding: 2.5vh 2.5vw;
+}
+.todolist{
+    font-size: large;
+    font-weight: 900;
+    padding: 1vh;
+}
+input{
+    border-radius: 30px;
+    margin-bottom: 2vh;
+    margin-top: 2vh;
+    padding: 1.5vh;
+    width: 70%;
+    background-color: #222222;
+    font-size: medium;
+    color: white;
+}
+.inputsec{
+    flex-wrap: wrap;
+}
+button{
+    border-radius: 30px;
+    cursor: pointer;
+    padding:auto 1.3vw;
+    width: 10%;
+    background-color: orange;
+    border-color: orange;
+    color: white;
+    font-weight: 1000;
+    margin-left: 3%;
+    box-shadow: none;
+    font-size: 2vw;
+    
+}
+ul li{
+    padding: 1vh;
+    list-style: none;
+    width: 83%;
+    background-color: #222222;
+    border-radius: 10px;
+    color: white;
+    margin: 2vh 0;
+    font-size: medium;
+    position: relative;
+}
+span{
+    right: 0vw;
+    position: absolute;
+    font-size: 4vh;
+    bottom: 0.01vh;
+    background-color: orange;
+    border-radius: 10px;
+    padding: 0 1.5vh;
+    cursor: pointer;
+}
